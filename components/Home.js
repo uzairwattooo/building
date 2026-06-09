@@ -31,7 +31,7 @@ export default function Home() {
             <div className='space-y-28'>
                 <section className="w-full bg-white py-12 md:py-16 xl:py-20">
                     <div className="max-w-480 mx-auto px-4 md:px-2 xl:px-12 grid grid-cols-1 xl:grid-cols-2 gap-10 xl:gap-0 items-center">
-                        <div className="relative mx-auto xl:mx-0 xl:-left-20 w-full max-w-237.5 aspect-590/420">
+                        <div className="relative mx-auto xl:mx-0 xl:-left-17 w-full max-w-237.5 aspect-590/420">
                             <Image
                                 src="/Assets/Group 1203.png"
                                 alt="Worker"
@@ -47,7 +47,7 @@ export default function Home() {
                                 height={110}
                                 className="absolute right-0 md:right-10 xl:right-35 -top-4 w-20 md:w-28 xl:w-37.5"
                             />
-                            <p className="noto-jp text-[16px] md:text-[18px] xl:text-[20px] font-normal text-[#113D48]">
+                            <p className="noto-jp text-[16px] md:text-[18px] xl:text-[18px] 2xl:text-[20px] font-normal text-[#113D48]">
                                 About us
                             </p>
 
@@ -56,23 +56,23 @@ export default function Home() {
                             </p>
 
 
-                            <h2 className="noto-jp font-medium text-[#1CA8CB] leading-tight max-w-full xl:max-w-155 text-[32px] md:text-[44px] xl:text-[64px]">
+                            <h2 className="noto-jp font-medium text-[#1CA8CB] leading-tight max-w-full xl:max-w-155 2xl:max-w-155 text-[32px] md:text-[44px] xl:text-[50px] 2xl:text-[64px]">
                                 確かな技術と信頼で
                                 <br />
                                 一歩先ゆく施工を
                             </h2>
 
-                            <p className="max-w-full xl:max-w-205 font-medium text-[18px] md:text-[20px] xl:text-[24px] tracking-[-0.041em] text-[#333333] mt-5">
+                            <p className="max-w-full xl:max-w-145 2xl:max-w-205 font-medium text-[18px] md:text-[20px] xl:text-[20px] 2xl:text-[24px] tracking-[-0.041em] text-[#333333] mt-5">
                                 株式会社千代田は、信頼される施工技術と丁寧な対応で、
                                 お客様の理想を形にする建設のパートナーです。私たちは、
                                 少人数ならではの機動力を活かし、迅速かつ柔軟に対応します。
                             </p>
 
-                            <p className="noto-jp max-w-full xl:max-w-205 font-normal text-[18px] md:text-[20px] xl:text-[24px] tracking-[-0.041em] text-[#20A9C8] mt-4">
+                            <p className="noto-jp max-w-full xl:max-w-205 font-normal text-[18px] md:text-[20px] xl:text-[20px] 2xl:text-[24px] tracking-[-0.041em] text-[#20A9C8] mt-4">
                                 技術へのこだわりと豊富な経験で、どんなプロジェクトでも⾼品質な仕上がりをお約束します。
                             </p>
 
-                            <p className="noto-jp max-w-full xl:max-w-130 font-normal text-[18px] md:text-[20px] xl:text-[24px] tracking-[-0.041em] text-[#333333] mt-4">
+                            <p className="noto-jp max-w-full xl:max-w-130 font-normal text-[18px] md:text-[20px] xl:text-[20px] 2xl:text-[24px] tracking-[-0.041em] text-[#333333] mt-4">
                                 「地域の皆様とともに成⻑し、信頼され続ける企業でありたい」
                                 それが私たちの願いです。
                             </p>
@@ -85,7 +85,7 @@ export default function Home() {
                         </div>
                     </div>
                 </section>
-                <section className="relative mx-auto w-full max-w-[1923px] overflow-hidden bg-white pb-20 md:pb-28 xl:pb-32 min-h-[760px] md:min-h-[900px] lg:min-h-[1000px] xl:min-w-[1000px] 2xl:min-h-[1210px]">
+                <section className="relative mx-auto w-full max-w-[1923px] overflow-hidden bg-white pb-20 md:pb-28 xl:pb-32 min-h-[780px] md:min-h-[900px] lg:min-h-[980px] xl:min-h-[1080px] 2xl:min-h-[1210px]">
                     <Image
                         src="/Assets/Group 12030.png"
                         alt="Wave Background"
@@ -94,35 +94,34 @@ export default function Home() {
                         className="absolute inset-0 z-0 h-full w-full object-cover"
                     />
 
-                    <div className="relative z-10 pt-12 md:pt-16 lg:pt-20 xl:pt-4">
+                    <div className="relative z-10 pt-12 md:pt-16 lg:pt-20 xl:pt-3 2xl:pt-4">
                         <div className="flex flex-col items-center text-center">
-                            <p className="noto-jp text-[14px] md:text-[16px] lg:text-[18px] xl:text-[20px] text-[#1CA8CB]">
+                            <p className="noto-jp text-[14px] md:text-[16px] lg:text-[18px] 2xl:text-[20px] text-[#1CA8CB]">
                                 — Content —
                             </p>
 
-                            <p className="noto-jp text-[14px] md:text-[16px] lg:text-[18px] xl:text-[20px] text-[#1CA8CB]">
+                            <p className="noto-jp text-[14px] md:text-[16px] lg:text-[18px] 2xl:text-[20px] text-[#1CA8CB]">
                                 - - - ——
                             </p>
 
-                            <div className="relative -mt-6 md:-mt-7 lg:-mt-8 xl:-mt-10 flex justify-center">
+                            <div className="relative -mt-6 md:-mt-7 lg:-mt-8 2xl:-mt-10 flex justify-center">
                                 <Image
                                     src="/Assets/Asset 3 2.png"
                                     alt=""
                                     width={586}
                                     height={136}
-                                    className="h-auto w-[260px] md:w-[360px] lg:w-[460px] xl:w-[586px]"
+                                    className="h-auto w-[260px] md:w-[360px] lg:w-[460px] xl:w-[520px] 2xl:w-[586px]"
                                 />
 
-                                <h2 className="absolute left-1/2 top-1/2 z-10 -translate-x-1/2 -translate-y-1/2 whitespace-nowrap noto-serif-jp text-[30px] md:text-[42px] lg:text-[54px] xl:text-[64px] font-bold leading-none text-[#1CA8CB]">
+                                <h2 className="absolute left-1/2 top-1/2 z-10 -translate-x-1/2 -translate-y-1/2 whitespace-nowrap noto-serif-jp text-[30px] md:text-[42px] lg:text-[54px] xl:text-[58px] 2xl:text-[64px] font-bold leading-none text-[#1CA8CB]">
                                     お知らせ
                                 </h2>
                             </div>
                         </div>
                     </div>
 
-                    <div className="relative z-10 mx-auto mt-12 md:mt-16 lg:mt-24 xl:mt-32 max-w-[1495px] px-4 md:px-6 xl:px-0">
-                        <div className="grid grid-cols-1 justify-items-center gap-8 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 xl:gap-[20px] 2xl:gap-[35px">
-
+                    <div className="relative z-10 mx-auto mt-12 md:mt-16 lg:mt-20 xl:mt-24 2xl:mt-32 max-w-[1495px] px-4 md:px-6 xl:px-8 2xl:px-0">
+                        <div className="grid grid-cols-1 justify-items-center gap-8 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 xl:gap-[22px] 2xl:gap-[35px]">
                             {cardData.map((card) => (
                                 <div
                                     key={card.id}
@@ -130,8 +129,8 @@ export default function Home() {
             relative overflow-hidden bg-white shadow-lg
             w-[300px] h-[418px] rounded-[24px]
             md:w-[330px] md:h-[460px] md:rounded-[27px]
-            lg:w-[360px] lg:h-[502px] lg:rounded-[30px]
-            xl:w-[410px] xl:h-[575px] xl:rounded-[30px]
+            lg:w-[320px] lg:h-[448px] lg:rounded-[28px]
+            xl:w-[390px] xl:h-[543px] xl:rounded-[32px]
             2xl:w-[458px] 2xl:h-[638px] 2xl:rounded-[37px]
           "
                                 >
@@ -140,8 +139,9 @@ export default function Home() {
               absolute z-30 flex items-center justify-center rounded-full bg-[#20A9C8] text-white
               right-[16px] top-0 h-[32px] w-[32px] text-[18px]
               md:right-[18px] md:h-[35px] md:w-[35px] md:text-[20px]
-              lg:right-[20px] lg:h-[38px] lg:w-[38px] lg:text-[22px]
-              xl:right-[25px] xl:h-11 xl:w-11 xl:text-2xl
+              lg:right-[18px] lg:h-[36px] lg:w-[36px] lg:text-[21px]
+              xl:right-[22px] xl:h-[40px] xl:w-[40px] xl:text-[22px]
+              2xl:right-[25px] 2xl:h-11 2xl:w-11 2xl:text-2xl
             "
                                     >
                                         →
@@ -152,9 +152,9 @@ export default function Home() {
               absolute z-20 noto-serif-jp font-bold text-[#333333]
               left-[22px] top-[18px] text-[18px]
               md:left-[24px] md:top-[20px] md:text-[20px]
-              lg:left-[27px] lg:top-[23px] lg:text-[22px]
-              xl:left-[33px] xl:top-[26px] xl:text-[25px]
-              2xl:left-[33px] xl:top-[26px] xl:text-[28px]
+              lg:left-[24px] lg:top-[21px] lg:text-[21px]
+              xl:left-[30px] xl:top-[24px] xl:text-[24px]
+              2xl:left-[33px] 2xl:top-[26px] 2xl:text-[28px]
             "
                                     >
                                         {card.title}
@@ -165,8 +165,8 @@ export default function Home() {
               absolute right-0 overflow-hidden
               top-[58px] h-[330px] w-[268px] rounded-bl-[24px] rounded-tl-[24px]
               md:top-[64px] md:h-[364px] md:w-[295px] md:rounded-bl-[27px] md:rounded-tl-[27px]
-              lg:top-[70px] lg:h-[397px] lg:w-[322px] lg:rounded-bl-[30px] lg:rounded-tl-[30px]
-              xl:top-[88px] xl:h-[454px] xl:w-[353px] xl:rounded-bl-[37px] xl:rounded-tl-[37px]
+              lg:top-[63px] lg:h-[354px] lg:w-[286px] lg:rounded-bl-[28px] lg:rounded-tl-[28px]
+              xl:top-[78px] xl:h-[429px] xl:w-[348px] xl:rounded-bl-[32px] xl:rounded-tl-[32px]
               2xl:top-[88px] 2xl:h-[504px] 2xl:w-[409px] 2xl:rounded-bl-[37px] 2xl:rounded-tl-[37px]
             "
                                     >
@@ -184,14 +184,15 @@ export default function Home() {
               absolute z-20 flex items-center justify-center rounded-full bg-[#E5F4F7]
               left-[27px] top-[50px] h-[81px] w-[81px]
               md:left-[30px] md:top-[55px] md:h-[89px] md:w-[89px]
-              lg:left-[33px] lg:top-[60px] lg:h-[97px] lg:w-[97px]
-              xl:left-[42px] xl:top-[76px] xl:h-[123px] xl:w-[123px]
+              lg:left-[29px] lg:top-[54px] lg:h-[87px] lg:w-[87px]
+              xl:left-[38px] xl:top-[70px] xl:h-[110px] xl:w-[110px]
+              2xl:left-[42px] 2xl:top-[76px] 2xl:h-[123px] 2xl:w-[123px]
             "
                                     >
                                         <span
                                             className="
                 noto-serif-jp font-bold tracking-[0.2813em] text-[#20A9C8]
-                text-[32px] md:text-[36px] lg:text-[40px] xl:text-[50px]
+                text-[32px] md:text-[36px] lg:text-[38px] xl:text-[44px] 2xl:text-[50px]
               "
                                         >
                                             {card.id}
@@ -203,8 +204,9 @@ export default function Home() {
               absolute left-0 z-20 bg-white
               bottom-[56px] h-[105px] w-[236px] rounded-br-[65px] rounded-tr-[65px] px-[26px] pt-[27px]
               md:bottom-[62px] md:h-[116px] md:w-[260px] md:rounded-br-[72px] md:rounded-tr-[72px] md:px-[29px] md:pt-[30px]
-              lg:bottom-[67px] lg:h-[126px] lg:w-[283px] lg:rounded-br-[80px] lg:rounded-tr-[80px] lg:px-[32px] lg:pt-[33px]
-              xl:bottom-[85px] xl:h-[160px] xl:w-[360px] xl:rounded-br-[100px] xl:rounded-tr-[100px] xl:px-10 xl:pt-[42px]
+              lg:bottom-[59px] lg:h-[112px] lg:w-[252px] lg:rounded-br-[70px] lg:rounded-tr-[70px] lg:px-[28px] lg:pt-[28px]
+              xl:bottom-[74px] xl:h-[138px] xl:w-[312px] xl:rounded-br-[88px] xl:rounded-tr-[88px] xl:px-8 xl:pt-[36px]
+              2xl:bottom-[85px] 2xl:h-[160px] 2xl:w-[360px] 2xl:rounded-br-[100px] 2xl:rounded-tr-[100px] 2xl:px-10 2xl:pt-[42px]
             "
                                     >
                                         <p
@@ -212,8 +214,9 @@ export default function Home() {
                 noto-jp font-medium text-[#333333]
                 w-[176px] px-1 text-[10px] leading-[18px]
                 md:w-[194px] md:text-[11px] md:leading-[20px]
-                lg:w-[210px] lg:text-[12px] lg:leading-[22px]
-                xl:w-[268px] xl:px-2 xl:text-[15px] xl:leading-7
+                lg:w-[188px] lg:text-[11px] lg:leading-[20px]
+                xl:w-[232px] xl:px-2 xl:text-[13px] xl:leading-[24px]
+                2xl:w-[268px] 2xl:text-[15px] 2xl:leading-7
               "
                                         >
                                             {card.description}
@@ -221,7 +224,6 @@ export default function Home() {
                                     </div>
                                 </div>
                             ))}
-
                         </div>
                     </div>
                 </section>
@@ -259,31 +261,30 @@ export default function Home() {
                     </div>
                 </section >
 
-                <section className="relative w-full overflow-hidden bg-white py-12 md:py-16 xl:py-20">
-                    <div className="relative mx-auto max-w-[1920px] min-h-[700px] md:min-h-[900px] xl:min-h-[1050px] 2xl:min-h-[1200px] px-4 md:px-8">
-
+                <section className="relative w-full overflow-hidden bg-white py-10 md:py-14 xl:py-16 2xl:py-20">
+                    <div className="relative mx-auto max-w-[1920px] min-h-[720px] md:min-h-[880px] xl:min-h-[930px] 2xl:min-h-[1200px] px-4 md:px-8">
                         <div className="relative flex flex-col items-center">
                             <Image
                                 src="/Assets/Asset 3 2.png"
                                 alt=""
                                 width={335}
                                 height={129}
-                                className="absolute -top-3 w-[180px] md:w-[250px] xl:w-[300px] 2xl:w-[335px] h-auto"
+                                className="absolute -top-3 w-[160px] md:w-[230px] xl:w-[280px] 2xl:w-[335px] h-auto"
                             />
 
-                            <p className="relative z-10 mt-6 md:mt-8 xl:mt-10 noto-serif-jp text-[14px] md:text-[17px] xl:text-[20px] font-normal text-[#20A9C8]">
+                            <p className="relative z-10 mt-5 md:mt-7 xl:mt-8 2xl:mt-10 noto-serif-jp text-[13px] md:text-[16px] xl:text-[18px] 2xl:text-[20px] font-normal text-[#20A9C8]">
                                 — Features —
                             </p>
 
-                            <h2 className="relative z-10 mt-8 md:mt-10 xl:mt-12 w-full md:w-[700px] xl:w-[850px] 2xl:w-[616px] text-center noto-serif-jp font-bold text-[#2095B2] text-[24px] leading-[36px] sm:text-[30px] sm:leading-[42px] md:text-[42px] md:leading-[54px] xl:text-[52px] xl:leading-[64px] 2xl:text-[64px] 2xl:leading-[80px]">
+                            <h2 className="relative z-10 mt-6 md:mt-8 xl:mt-9 2xl:mt-12 w-full md:w-[620px] xl:w-[760px] 2xl:w-[616px] text-center noto-serif-jp font-bold text-[#2095B2] text-[23px] leading-[34px] sm:text-[28px] sm:leading-[40px] md:text-[38px] md:leading-[50px] xl:text-[48px] xl:leading-[60px] 2xl:text-[64px] 2xl:leading-[80px]">
                                 自然素材でつくる、
                                 <br />
                                 温かく静かな住まい
                             </h2>
 
-                            <div className="mt-6 md:mt-8 xl:mt-10">
-                                <div className="w-[160px] md:w-[200px] 2xl:w-[233px] h-px bg-[#FEC05D]" />
-                                <div className="w-[160px] md:w-[200px] 2xl:w-[233px] h-px bg-[#FEC05D] mt-2" />
+                            <div className="mt-5 md:mt-7 xl:mt-8 2xl:mt-10">
+                                <div className="w-[145px] md:w-[185px] xl:w-[215px] 2xl:w-[233px] h-px bg-[#FEC05D]" />
+                                <div className="w-[145px] md:w-[185px] xl:w-[215px] 2xl:w-[233px] h-px bg-[#FEC05D] mt-2" />
                             </div>
 
                             <Image
@@ -291,30 +292,30 @@ export default function Home() {
                                 alt=""
                                 width={241}
                                 height={341}
-                                className="absolute top-8 right-0 md:right-10 xl:right-24 2xl:right-40 w-20 md:w-32 xl:w-40 2xl:w-[188px] h-auto"
+                                className="absolute top-7 right-0 md:right-8 xl:right-16 2xl:right-40 w-16 md:w-28 xl:w-34 2xl:w-[188px] h-auto"
                             />
                         </div>
 
-                        <div className="mt-16 md:mt-20 xl:mt-24 2xl:mt-30 grid grid-cols-1 lg:grid-cols-[55%_45%] xl:grid-cols-[58%_42%] 2xl:grid-cols-[940px_1fr] items-center gap-10">
-                            <div className="z-20 px-4 md:px-8 xl:px-12 2xl:pl-20">
-                                <h3 className="mb-8 md:mb-10 xl:mb-12 noto-jp font-bold text-[#333333] text-[18px] md:text-[24px] xl:text-[28px] 2xl:text-[32px]">
+                        <div className="mt-12 md:mt-16 xl:mt-18 2xl:mt-30 grid grid-cols-1 lg:grid-cols-[54%_46%] xl:grid-cols-[56%_44%] 2xl:grid-cols-[940px_1fr] items-center gap-8 md:gap-10">
+                            <div className="z-20 px-2 md:px-6 xl:px-8 2xl:pl-20 text-center lg:text-left">
+                                <h3 className="mb-5 md:mb-7 xl:mb-8 2xl:mb-12 noto-jp font-bold text-[#333333] text-[17px] md:text-[22px] xl:text-[25px] 2xl:text-[32px]">
                                     セルロースファイバー断熱・防音工事
                                 </h3>
 
-                                <p className="noto-jp text-[#707070] mb-6 md:mb-8 text-[14px] leading-[24px] md:text-[18px] md:leading-[32px] xl:text-[24px] xl:leading-[42px] 2xl:text-[32px] 2xl:leading-[52px]">
+                                <p className="noto-jp text-[#707070] mb-5 md:mb-6 xl:mb-7 2xl:mb-8 text-[14px] leading-[24px] md:text-[17px] md:leading-[30px] xl:text-[20px] xl:leading-[36px] 2xl:text-[32px] 2xl:leading-[52px]">
                                     セルロースファイバー断熱防音工事は、環境に優しい自然素材を使い、
                                     優れた断熱性能と防音効果を発揮します。
                                 </p>
 
-                                <p className="noto-jp text-[#FEC05D] mb-10 md:mb-12 xl:mb-16 text-[14px] leading-[24px] md:text-[18px] md:leading-[32px] xl:text-[24px] xl:leading-[42px] 2xl:text-[32px] 2xl:leading-[52px]">
+                                <p className="noto-jp text-[#FEC05D] mb-8 md:mb-10 xl:mb-12 2xl:mb-16 text-[14px] leading-[24px] md:text-[17px] md:leading-[30px] xl:text-[20px] xl:leading-[36px] 2xl:text-[32px] 2xl:leading-[52px]">
                                     室内の温度差や生活音の悩みを軽減し、
                                     より快適で心地よい住空間を実現します。
                                 </p>
 
-                                <div className="flex justify-center lg:justify-end lg:px-6 2xl:px-10">
-                                    <button className="inline-flex items-center gap-4 bg-[#20A9C8] text-white rounded-full px-4 py-2 md:px-5 md:py-3 xl:px-6 xl:py-3 text-[13px] md:text-[14px] xl:text-[15px] font-bold">
+                                <div className="flex justify-center lg:justify-end lg:px-4 2xl:px-10">
+                                    <button className="inline-flex items-center gap-3 2xl:gap-4 bg-[#20A9C8] text-white rounded-full px-4 py-2 md:px-5 md:py-3 xl:px-5 xl:py-3 2xl:px-6 2xl:py-3 text-[13px] md:text-[14px] xl:text-[15px] font-bold">
                                         詳しく見る
-                                        <span className="w-8 h-8 rounded-full bg-white text-[#20A9C8] flex items-center justify-center">
+                                        <span className="w-7 h-7 2xl:w-8 2xl:h-8 rounded-full bg-white text-[#20A9C8] flex items-center justify-center">
                                             →
                                         </span>
                                     </button>
@@ -327,117 +328,125 @@ export default function Home() {
                                     alt="Worker"
                                     width={957}
                                     height={704}
-                                    className="w-full h-auto max-w-[320px] md:max-w-[500px] xl:max-w-[700px] 2xl:max-w-[957px] mx-auto xl:ml-auto"
+                                    className="w-full h-auto max-w-[300px] md:max-w-[460px] xl:max-w-[590px] 2xl:max-w-[957px] mx-auto xl:ml-auto"
                                 />
                             </div>
                         </div>
                     </div>
                 </section>
-                <section className="w-full max-w-490 mx-auto bg-white overflow-hidden relative">
-                    <div className="relative w-full z-20">
+                <section className="w-full max-w-490 mx-auto bg-white overflow-hidden">
+
+                    {/* Recruit Section */}
+                    <div className="relative w-full min-h-[620px] md:min-h-[720px] xl:min-h-[760px] 2xl:min-h-0 z-30">
                         <Image
-                            src="/Assets/Group 1207 (1).png"
+                            src="/Assets/Group 1204.png"
                             alt=""
                             width={1960}
                             height={870}
-                            className="w-full h-auto"
+                            className="absolute inset-0 xl:static w-full h-full xl:h-auto object-cover"
                         />
 
-                        <div className="absolute top-[24%] md:top-[26%] xl:top-[28%] 2xl:top-[30%] left-1/2 -translate-x-1/2 z-20 w-[75%] md:w-[65%] xl:w-[58%] 2xl:w-[55%] min-h-[260px] md:min-h-[360px] xl:min-h-[430px] 2xl:min-h-105 rounded-[30px] flex flex-col items-center">
-                            <Image
-                                src="/Assets/Asset 3 1.png"
-                                alt=""
-                                width={327}
-                                height={76}
-                                className="absolute z-0 bottom-[170px] md:bottom-[280px] xl:bottom-[385px] 2xl:bottom-93 w-[120px] md:w-[200px] xl:w-[290px] 2xl:w-80.5 h-auto"
-                            />
+                        <div className="absolute inset-0 z-20 flex items-center justify-center px-4">
+                            <div className='border border-[#FEC05D] p-1 rounded-4xl'>
 
-                            <p className="-mt-5 2xl:-mt-8 text-[#1CA8CB] text-[12px] md:text-[16px] xl:text-[18px] 2xl:text-[20px] noto-jp z-10">
-                                — Recruit —
-                            </p>
+                            <div className="relative w-full max-w-[320px] md:max-w-[620px] xl:max-w-[780px] 2xl:w-[155%] rounded-[24px] md:rounded-[30px] bg-white/95 border border-[#FEC05D] px-5 md:px-10 xl:px-14 py-8 md:py-12 text-center flex flex-col items-center">
 
-                            <h2 className="mt-6 md:mt-8 xl:mt-10 2xl:mt-12 noto-serif-jp font-bold text-[26px] md:text-[22px] xl:text-[54px] 2xl:text-[64px] leading-none text-[#2095B2]">
-                                採用情報
-                            </h2>
+                                <Image
+                                    src="/Assets/Asset 3 1.png"
+                                    alt=""
+                                    width={327}
+                                    height={76}
+                                    className="absolute z-0 top-15 md:top-20 xl:top-20 2xl:top-24 w-[150px] md:w-[230px] xl:w-[290px] 2xl:w-81 h-auto"
+                                />
+                                <Image
+                                    src="/Assets/Group.png"
+                                    alt=""
+                                    width={327}
+                                    height={76}
+                                    className="absolute z-20 -top-7 md:-top-10 xl:-top-10 2xl:-top-13 -right-5 md:right-10 xl:-right-7 2xl:-right-8 w-[70px] md:w-[230px] xl:w-[150px] 2xl:w-40.5 h-auto"
+                                />
 
-                            <p className="mt-2 md:mt-3 2xl:mt-4 noto-serif-jp text-[13px] text-[8px] leading-[13px]
-md:text-[12px]
-md:leading-[20px]
-xl:text-[17px]
-xl:leading-[30px]
-2xl:text-[20px] text-[#333333]">
-                                安心して働けるキャリア
-                            </p>
+                                <p className="relative z-10 text-[#1CA8CB] text-[13px] md:text-[16px] xl:text-[18px] 2xl:text-[20px] noto-jp">
+                                    — Recruit —
+                                </p>
 
-                            <p className="mt-3 md:block xl:mt-6 2xl:mt-8 max-w-[270px] md:max-w-[520px] xl:max-w-[620px] 2xl:max-w-167 text-center noto-jp text-[10px] leading-[16px] md:text-[4px] md:leading-[24px] xl:text-[17px] xl:leading-[30px] 2xl:text-[20px] 2xl:leading-normal text-[#555555]">
-                                公共事業を通じて地域を⽀えながら安⼼して成⻑できる環境を整えていき
-                                <br />
-                                ます。経験に関わらず、⼀⼈ひとりが⼒を発揮できる職場です。
-                                <br />
-                                ここで、あなたの新しいキャリアを始めてみませんか。
-                            </p>
+                                <h2 className="mt-5 z-10 md:mt-7 xl:mt-9 2xl:mt-12 noto-serif-jp font-bold text-[30px] md:text-[42px] xl:text-[54px] 2xl:text-[64px] leading-none text-[#2095B2]">
+                                    採用情報
+                                </h2>
 
-                            <button className="mt-4 md:mt-6 xl:mt-8 2xl:mt-10 inline-flex items-center gap-2 md:gap-3 2xl:gap-4 rounded-full bg-[#FEC05D] pl-4 md:pl-5 2xl:pl-7 pr-2 py-1.5 md:py-2 text-white text-[12px] md:text-[16px] xl:text-[20px] 2xl:text-[24px] font-medium">
-                                詳しく見る
-                                <span className="flex h-7 w-7 md:h-9 md:w-9 xl:h-10 xl:w-10 2xl:h-12 2xl:w-12 items-center justify-center rounded-full bg-white text-[#FEC05D]">
-                                    →
-                                </span>
-                            </button>
+                                <p className="mt-3 md:mt-4 noto-serif-jp text-[15px] md:text-[20px] xl:text-[23px] 2xl:text-[26px] text-[#333333]">
+                                    安心して働けるキャリア
+                                </p>
+
+                                <p className="mt-5 md:mt-7 2xl:mt-8 max-w-[270px] md:max-w-[560px] xl:max-w-[680px] 2xl:max-w-167 text-center noto-jp text-[13px] leading-[24px] md:text-[16px] md:leading-[28px] xl:text-[18px] xl:leading-[32px] 2xl:text-[20px] 2xl:leading-normal text-[#555555]">
+                                    公共事業を通じて地域を⽀えながら安⼼して成⻑できる環境を整えていきます。経験に関わらず、⼀⼈ひとりが⼒を発揮できる職場です。ここで、あなたの新しいキャリアを始めてみませんか。
+                                </p>
+
+                                <button className="flex justify-end mt-6 md:mt-8 2xl:mt-10 inline-flex items-center gap-3 2xl:gap-4 rounded-full bg-[#FEC05D] pl-5 2xl:pl-7 pr-2 py-2 text-white text-[15px] md:text-[18px] xl:text-[21px] 2xl:text-[24px] font-medium">
+                                    詳しく見る
+                                    <span className="flex h-9 w-9 xl:h-10 xl:w-10 2xl:h-12 2xl:w-12 items-center justify-center rounded-full bg-white text-[#FEC05D]">
+                                        →
+                                    </span>
+                                </button>
+                            </div>
+                            </div>
                         </div>
                     </div>
-                    <div className="relative -mt-[70px] md:-mt-[100px] xl:-mt-[250px] 2xl:-mt-145 w-full">
+
+                    {/* News Section */}
+                    <div className="relative w-full bg-white min-h-[980px] md:min-h-[760px] xl:min-h-[820px] 2xl:min-h-0 -mt-40 xl:-mt-25 md:-mt-20  2xl:-mt-145 z-10" >
                         <Image
                             src="/Assets/Group 1208.png"
                             alt=""
                             width={1960}
                             height={900}
-                            className="w-full h-auto"
+                            className="absolute inset-0 2xl:static w-full h-full 2xl:h-auto object-cover"
                         />
 
-                        <div className="absolute top-[28%] md:top-[33%] xl:top-[37%] 2xl:top-[40%] left-1/2 z-20 flex -translate-x-1/2 flex-col items-center text-center">
-                            <p className="noto-jp text-[12px] md:text-[16px] xl:text-[18px] 2xl:text-[20px] text-[#1CA8CB]">
+                        <div className="relative z-20 flex flex-col items-center text-center pt-36 md:pt-20 xl:pt-24 2xl:absolute 2xl:top-[40%] 2xl:left-1/2 2xl:-translate-x-1/2 2xl:pt-0">
+                            <p className="noto-jp text-[14px] md:text-[16px] xl:text-[18px] 2xl:text-[20px] text-[#1CA8CB]">
                                 — News —
                             </p>
 
-                            <p className="noto-jp text-[12px] md:text-[16px] xl:text-[18px] 2xl:text-[20px] text-[#1CA8CB]">
+                            <p className="noto-jp text-[14px] md:text-[16px] xl:text-[18px] 2xl:text-[20px] text-[#1CA8CB]">
                                 - - - ——
                             </p>
 
-                            <div className="relative -mt-5 md:-mt-7 xl:-mt-8 2xl:-mt-10 flex justify-center">
+                            <div className="relative -mt-6 md:-mt-7 xl:-mt-8 2xl:-mt-10 flex justify-center">
                                 <Image
                                     src="/Assets/Asset 1 1.png"
                                     alt=""
                                     width={586}
                                     height={136}
-                                    className="w-[230px] md:w-[360px] xl:w-[480px] 2xl:w-146.5 h-auto"
+                                    className="w-[260px] md:w-[380px] xl:w-[500px] 2xl:w-146.5 h-auto"
                                 />
 
-                                <h2 className="absolute top-1/2 left-1/2 z-10 -translate-x-1/2 -translate-y-1/2 whitespace-nowrap noto-serif-jp text-[28px] md:text-[42px] xl:text-[54px] 2xl:text-[64px] font-bold leading-none text-[#1CA8CB]">
+                                <h2 className="absolute top-1/2 left-1/2 z-10 -translate-x-1/2 -translate-y-1/2 whitespace-nowrap noto-serif-jp text-[32px] md:text-[44px] xl:text-[56px] 2xl:text-[64px] font-bold leading-none text-[#1CA8CB]">
                                     お知らせ
                                 </h2>
                             </div>
                         </div>
 
-                        <div className="absolute bottom-[12%] md:bottom-[14%] xl:bottom-[15%] 2xl:bottom-[17%] left-1/2 flex -translate-x-1/2 gap-3 md:gap-5 xl:gap-6 2xl:gap-8">
+                        <div className="relative z-20 mx-auto mt-12 md:mt-16 xl:mt-20 2xl:absolute 2xl:bottom-[17%] 2xl:left-1/2 2xl:-translate-x-1/2 flex flex-col md:flex-row items-center justify-center gap-8 2xl:gap-8 px-4">
                             {[1, 2, 3].map((item) => (
                                 <div
                                     key={item}
-                                    className="relative w-[105px] h-[70px] md:w-[210px] md:h-[120px] xl:w-[380px] xl:h-[210px] 2xl:w-[490px] 2xl:h-[256px] rounded-[18px] md:rounded-[32px] xl:rounded-[48px] 2xl:rounded-[56px] border-[2px] md:border-[3px] border-[#FEC05D]"
+                                    className="relative w-full max-w-[360px] md:w-[220px] md:h-[135px] xl:w-[360px] xl:h-[210px] 2xl:w-[490px] 2xl:h-[256px] h-[190px] rounded-[32px] md:rounded-[32px] xl:rounded-[48px] 2xl:rounded-[56px] border-[3px] border-[#FEC05D]"
                                 >
-                                    <div className="absolute inset-1 rounded-[14px] md:rounded-[27px] xl:rounded-[42px] 2xl:rounded-[46px] border-[1px] md:border-[2px] bg-white border-[#FEC05D]" />
+                                    <div className="absolute inset-1 rounded-[27px] xl:rounded-[42px] 2xl:rounded-[46px] border-[2px] bg-white border-[#FEC05D]" />
 
-                                    <div className="relative z-10 flex h-full flex-col items-center justify-center px-2 md:px-5 xl:px-8 2xl:px-10 text-center">
-                                        <div className="absolute -top-3 md:-top-4 xl:-top-5 2xl:-top-6 left-1/2 -translate-x-1/2 rounded-full bg-[#FEC05D] px-2 md:px-5 xl:px-7 2xl:px-8 py-0.5 md:py-1 xl:py-1.5 2xl:py-2">
-                                            <span className="noto-serif-jp text-[7px] md:text-[12px] xl:text-[20px] 2xl:text-[24px] font-black text-white">
+                                    <div className="relative z-10 flex h-full flex-col items-center justify-center px-5 xl:px-8 2xl:px-10 text-center">
+                                        <div className="absolute -top-5 2xl:-top-6 left-1/2 -translate-x-1/2 rounded-full bg-[#FEC05D] px-5 xl:px-7 2xl:px-8 py-1.5 2xl:py-2">
+                                            <span className="noto-serif-jp text-[13px] xl:text-[20px] 2xl:text-[24px] font-black text-white">
                                                 202X.XX.XX
                                             </span>
                                         </div>
 
-                                        <h3 className="noto-jp text-[7px] md:text-[12px] xl:text-[17px] 2xl:text-[20px] font-medium text-[#2095B2]">
+                                        <h3 className="noto-jp text-[14px] md:text-[12px] xl:text-[17px] 2xl:text-[20px] font-medium text-[#2095B2]">
                                             新ホームページを開設しました
                                         </h3>
 
-                                        <p className="mt-1 md:mt-2 xl:mt-4 2xl:mt-5 noto-jp text-[8px] md:text-[13px] xl:text-[20px] 2xl:text-[24px] leading-[12px] md:leading-[20px] xl:leading-[28px] 2xl:leading-[32px] text-[#333333]">
+                                        <p className="mt-3 xl:mt-4 2xl:mt-5 noto-jp text-[15px] md:text-[13px] xl:text-[20px] 2xl:text-[24px] leading-[24px] xl:leading-[28px] 2xl:leading-[32px] text-[#333333]">
                                             ホームページを開設しました
                                         </p>
                                     </div>
@@ -445,10 +454,9 @@ xl:leading-[30px]
                             ))}
                         </div>
 
-                        <button className="absolute right-[4%] md:right-[5%] 2xl:right-[6%] bottom-[2%] 2xl:bottom-[3%] inline-flex items-center gap-2 md:gap-3 2xl:gap-4 rounded-full bg-[#FEC05D] pl-3 md:pl-5 2xl:pl-7 pr-1.5 md:pr-2 py-1 md:py-1.5 2xl:py-2 noto-jp text-[9px] md:text-[14px] xl:text-[20px] 2xl:text-[24px] font-medium text-white">
+                        <button className="relative z-20 mx-auto mt-12 2xl:mt-0 2xl:absolute 2xl:right-[6%] 2xl:bottom-[3%] inline-flex items-center gap-3 2xl:gap-4 rounded-full bg-[#FEC05D] pl-5 2xl:pl-7 pr-2 py-2 noto-jp text-[16px] xl:text-[20px] 2xl:text-[24px] font-medium text-white">
                             お知らせ⼀覧へ
-
-                            <span className="flex h-6 w-6 md:h-8 md:w-8 xl:h-10 xl:w-10 2xl:h-12 2xl:w-12 items-center justify-center rounded-full bg-white text-[#FEC05D]">
+                            <span className="flex h-9 w-9 xl:h-10 xl:w-10 2xl:h-12 2xl:w-12 items-center justify-center rounded-full bg-white text-[#FEC05D]">
                                 →
                             </span>
                         </button>
