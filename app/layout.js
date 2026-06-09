@@ -1,15 +1,19 @@
-import { Geist, Geist_Mono } from "next/font/google";
+import Footer from "../components/Footer";
+import Navbar from "../components/Navbar";
 import "./globals.css";
+import { Noto_Sans_JP, Noto_Serif_JP } from "next/font/google";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
+const notoJP = Noto_Sans_JP({
   subsets: ["latin"],
+  weight: ["400"],
+  variable: "--font-noto-jp",
+});
+const notoSerifJP = Noto_Serif_JP({
+  subsets: ["latin"],
+  weight: ["400"],
+  variable: "--font-noto-serif-jp",
 });
 
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
-});
 
 export const metadata = {
   title: "Create Next App",
@@ -20,9 +24,12 @@ export default function RootLayout({ children }) {
   return (
     <html
       lang="en"
-      className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
-      <body className="min-h-full flex flex-col">{children}</body>
+      <body className={`${notoJP.variable} ${notoSerifJP.variable} min-h-full flex flex-col`} cz-shortcut-listen="true" >
+        <Navbar/>
+        {children}
+        <Footer/>
+      </body>
     </html>
   );
 }
