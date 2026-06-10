@@ -335,8 +335,6 @@ export default function Home() {
                     </div>
                 </section>
                 <section className="w-full max-w-490 mx-auto bg-white overflow-hidden">
-
-                    {/* Recruit Section */}
                     <div className="relative w-full min-h-[620px] md:min-h-[720px] xl:min-h-[760px] 2xl:min-h-0 z-30">
                         <Image
                             src="/Assets/Group 1204.png"
@@ -349,51 +347,49 @@ export default function Home() {
                         <div className="absolute inset-0 z-20 flex items-center justify-center px-4">
                             <div className='border border-[#FEC05D] p-1 rounded-4xl'>
 
-                            <div className="relative w-full max-w-[320px] md:max-w-[620px] xl:max-w-[780px] 2xl:w-[155%] rounded-[24px] md:rounded-[30px] bg-white/95 border border-[#FEC05D] px-5 md:px-10 xl:px-14 py-8 md:py-12 text-center flex flex-col items-center">
+                                <div className="relative w-full max-w-[320px] md:max-w-[620px] xl:max-w-[780px] 2xl:w-[155%] rounded-[24px] md:rounded-[30px] bg-white/95 border border-[#FEC05D] px-5 md:px-10 xl:px-14 py-8 md:py-12 text-center flex flex-col items-center">
 
-                                <Image
-                                    src="/Assets/Asset 3 1.png"
-                                    alt=""
-                                    width={327}
-                                    height={76}
-                                    className="absolute z-0 top-15 md:top-20 xl:top-20 2xl:top-24 w-[150px] md:w-[230px] xl:w-[290px] 2xl:w-81 h-auto"
-                                />
-                                <Image
-                                    src="/Assets/Group.png"
-                                    alt=""
-                                    width={327}
-                                    height={76}
-                                    className="absolute z-20 -top-7 md:-top-10 xl:-top-10 2xl:-top-13 -right-5 md:right-10 xl:-right-7 2xl:-right-8 w-[70px] md:w-[230px] xl:w-[150px] 2xl:w-40.5 h-auto"
-                                />
+                                    <Image
+                                        src="/Assets/Asset 3 1.png"
+                                        alt=""
+                                        width={327}
+                                        height={76}
+                                        className="absolute z-0 top-15 md:top-20 xl:top-20 2xl:top-24 w-[150px] md:w-[230px] xl:w-[290px] 2xl:w-81 h-auto"
+                                    />
+                                    <Image
+                                        src="/Assets/Group.png"
+                                        alt=""
+                                        width={327}
+                                        height={76}
+                                        className="absolute z-20 -top-7 md:-top-10 xl:-top-10 2xl:-top-13 -right-5 md:right-10 xl:-right-7 2xl:-right-8 w-[70px] md:w-[230px] xl:w-[150px] 2xl:w-40.5 h-auto"
+                                    />
 
-                                <p className="relative z-10 text-[#1CA8CB] text-[13px] md:text-[16px] xl:text-[18px] 2xl:text-[20px] noto-jp">
-                                    — Recruit —
-                                </p>
+                                    <p className="relative z-10 text-[#1CA8CB] text-[13px] md:text-[16px] xl:text-[18px] 2xl:text-[20px] noto-jp">
+                                        — Recruit —
+                                    </p>
 
-                                <h2 className="mt-5 z-10 md:mt-7 xl:mt-9 2xl:mt-12 noto-serif-jp font-bold text-[30px] md:text-[42px] xl:text-[54px] 2xl:text-[64px] leading-none text-[#2095B2]">
-                                    採用情報
-                                </h2>
+                                    <h2 className="mt-5 z-10 md:mt-7 xl:mt-9 2xl:mt-12 noto-serif-jp font-bold text-[30px] md:text-[42px] xl:text-[54px] 2xl:text-[64px] leading-none text-[#2095B2]">
+                                        採用情報
+                                    </h2>
 
-                                <p className="mt-3 md:mt-4 noto-serif-jp text-[15px] md:text-[20px] xl:text-[23px] 2xl:text-[26px] text-[#333333]">
-                                    安心して働けるキャリア
-                                </p>
+                                    <p className="mt-3 md:mt-4 noto-serif-jp text-[15px] md:text-[20px] xl:text-[23px] 2xl:text-[26px] text-[#333333]">
+                                        安心して働けるキャリア
+                                    </p>
 
-                                <p className="mt-5 md:mt-7 2xl:mt-8 max-w-[270px] md:max-w-[560px] xl:max-w-[680px] 2xl:max-w-167 text-center noto-jp text-[13px] leading-[24px] md:text-[16px] md:leading-[28px] xl:text-[18px] xl:leading-[32px] 2xl:text-[20px] 2xl:leading-normal text-[#555555]">
-                                    公共事業を通じて地域を⽀えながら安⼼して成⻑できる環境を整えていきます。経験に関わらず、⼀⼈ひとりが⼒を発揮できる職場です。ここで、あなたの新しいキャリアを始めてみませんか。
-                                </p>
+                                    <p className="mt-5 md:mt-7 2xl:mt-8 max-w-[270px] md:max-w-[560px] xl:max-w-[680px] 2xl:max-w-167 text-center noto-jp text-[13px] leading-[24px] md:text-[16px] md:leading-[28px] xl:text-[18px] xl:leading-[32px] 2xl:text-[20px] 2xl:leading-normal text-[#555555]">
+                                        公共事業を通じて地域を⽀えながら安⼼して成⻑できる環境を整えていきます。経験に関わらず、⼀⼈ひとりが⼒を発揮できる職場です。ここで、あなたの新しいキャリアを始めてみませんか。
+                                    </p>
 
-                                <button className="flex justify-end mt-6 md:mt-8 2xl:mt-10 inline-flex items-center gap-3 2xl:gap-4 rounded-full bg-[#FEC05D] pl-5 2xl:pl-7 pr-2 py-2 text-white text-[15px] md:text-[18px] xl:text-[21px] 2xl:text-[24px] font-medium">
-                                    詳しく見る
-                                    <span className="flex h-9 w-9 xl:h-10 xl:w-10 2xl:h-12 2xl:w-12 items-center justify-center rounded-full bg-white text-[#FEC05D]">
-                                        →
-                                    </span>
-                                </button>
-                            </div>
+                                    <button className="flex justify-end mt-6 md:mt-8 2xl:mt-10 inline-flex items-center gap-3 2xl:gap-4 rounded-full bg-[#FEC05D] pl-5 2xl:pl-7 pr-2 py-2 text-white text-[15px] md:text-[18px] xl:text-[21px] 2xl:text-[24px] font-medium">
+                                        詳しく見る
+                                        <span className="flex h-9 w-9 xl:h-10 xl:w-10 2xl:h-12 2xl:w-12 items-center justify-center rounded-full bg-white text-[#FEC05D]">
+                                            →
+                                        </span>
+                                    </button>
+                                </div>
                             </div>
                         </div>
                     </div>
-
-                    {/* News Section */}
                     <div className="relative w-full bg-white min-h-[980px] md:min-h-[760px] xl:min-h-[820px] 2xl:min-h-0 -mt-40 xl:-mt-25 md:-mt-20  2xl:-mt-145 z-10" >
                         <Image
                             src="/Assets/Group 1208.png"
@@ -454,8 +450,21 @@ export default function Home() {
                             ))}
                         </div>
 
-                        <button className="relative z-20 mx-auto mt-12 2xl:mt-0 2xl:absolute 2xl:right-[6%] 2xl:bottom-[3%] inline-flex items-center gap-3 2xl:gap-4 rounded-full bg-[#FEC05D] pl-5 2xl:pl-7 pr-2 py-2 noto-jp text-[16px] xl:text-[20px] 2xl:text-[24px] font-medium text-white">
+                        <button
+                            className="
+    mx-auto
+    mt-12
+    flex items-center gap-3
+    rounded-full bg-[#FEC05D]
+    pl-5 xl:pl-7
+    pr-2 py-2
+    noto-jp
+    text-[16px] xl:text-[20px] 2xl:text-[24px]
+    font-medium text-white
+  "
+                        >
                             お知らせ⼀覧へ
+
                             <span className="flex h-9 w-9 xl:h-10 xl:w-10 2xl:h-12 2xl:w-12 items-center justify-center rounded-full bg-white text-[#FEC05D]">
                                 →
                             </span>

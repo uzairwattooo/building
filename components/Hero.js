@@ -24,7 +24,7 @@ export default function HeroSection() {
         />
 
         <div className="absolute inset-0 z-[70] flex items-center justify-center pb-[10%] text-center px-4">
-          <h1 className="noto-jp font-bold text-[#FEC05D] tracking-wider leading-relaxed drop-shadow text-[32px] sm:text-[42px] md:text-[52px] lg:text-[64px] xl:text-[72px] 2xl:text-[96px]">
+          <h1 className="noto-jp font-bold text-[#FEC05D] tracking-wider leading-relaxed drop-shadow text-[32px] sm:text-[42px] md:text-[52px] lg:text-[64px] xl:text-[62px] 2xl:text-[96px]">
             今日も明日も、
             <br />
             変わらぬ信頼で守り続ける
